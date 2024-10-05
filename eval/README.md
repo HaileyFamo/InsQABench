@@ -1,8 +1,8 @@
 # InsQABench
 
 - 评测数据集
-  - [客观评测集 InsuranceQA_zh](datasets/InsuranceQA_zh.json)
-  - [主观评测集](./datasets/subjective/)
+  - [客观评测集 InsuranceQA_zh](datasets/objective.json)
+  - [主观评测集](./datasets/subjective.json)
 
 - 评测代码
   - 主观评测：运行 `subjective/src/eval_seq2seq.py` 进行主观评测，其中的模型答案路径需要自行修改。当运行评测代码时，评分结果将会被保存在 `result/` 文件夹下（`jsonl`格式）。
@@ -10,4 +10,5 @@
 
 
 - 评测结果:
-  - `objective`文件夹中保存了我们的技术报告中的客观评测结果。包括[基座模型（Qwen-1.5-Chat）](./objective/base_model)和[InsLLM](./InsLLM/base_model)。
+  - `objective`文件夹中保存了我们的技术报告中的客观评测结果。包括[基座模型（Qwen-1.5-Chat）](./objective/base_model)和[InsLLM](./objective/InsLLM)。
+  - `subjective`文件夹中保存了我们的技术报告中的主观评测结果。包括[各类模型生成的回复](./subjective/result/result_of_models)以及[裁判模型评分](./subjective/result/answers_with_rate.jsonl)。
