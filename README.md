@@ -16,13 +16,13 @@ InsQABench 是中国保险领域首个大规模的专用问答数据集和评估
 我们将在该项目中开源如下资源：
 * [Insure-QA 数据集](https://huggingface.co/datasets/FrankRin/Insur-QA)
 * [InsLLM 模型权重](https://huggingface.co/FrankRin/InsLLM)
-* [中文保险条款数据集]()
+* [中文保险条款数据集](#insur-qa-数据集)
 * [Insure-QA Benchmark](./eval/)
 
 
 ## 新闻
 
-**[2024/10/07]** InsQABench v1.0 已正式发布，开源 [DISC-LawLLM-13B 模型](https://huggingface.co/ShengbinYue/DISC-LawLLM) 、 [Insure-QA 数据集](https://huggingface.co/datasets/FrankRin/Insur-QA) .
+**[2024/10/07]** InsQABench v1.0 已正式发布，开源 [InsLLM 模型](https://huggingface.co/FrankRin/InsLLM) 、 [Insure-QA 数据集](https://huggingface.co/datasets/FrankRin/Insur-QA) 和[中文保险条款数据集](#insur-qa-数据集).
 
 ## 目录
 
@@ -72,9 +72,11 @@ InsLLM 是一个具备保险知识问答、数据库查询和合同解析能力�
 
 ### Insur-QA 数据集
 
-我们在互联网上抓取了共
+基本保险知识部分，我们对 InsuranceQA 数据集进行了翻译，得到 InsuranceQA_zh 数据集。
 
-数据集的组成如下：
+保险合同数据部分，我们在互联网上下载了多家保险公司 PDF 格式的保险条款（见[中文保险条款数据集](#中文保险条款数据集)），并使用 Adobe PDF Extract API 解析。基于对解析结果进行段落文本重组后的数据使用 Gemini 生成 QA 对，组成 <Q,A,E> 三元组。
+
+具体的数据集的组成如下：
 
 <table border="1">
   <tr>
@@ -122,6 +124,8 @@ InsLLM 是一个具备保险知识问答、数据库查询和合同解析能力�
 
 
 ### 中文保险条款数据集
+
+下载方式：[百度网盘](https://pan.baidu.com/s/10UCb0EWC3Mz9iPoLwE-oaA?pwd=1037)（提取码：1037）
 
 
 ## 模型评测
