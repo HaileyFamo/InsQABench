@@ -68,9 +68,10 @@ InsLLM 是一个具备保险知识问答、数据库查询和合同解析能力�
 
 ### 模型效果演示
 
-<!-- Deme GIF -->
+<!-- Demo GIF -->
+![Demo GIF](./clause.gif)
 
-### Insur-QA 数据集
+### InsQABench 数据集
 
 基本保险知识部分，我们对 InsuranceQA 数据集进行了翻译，得到 InsuranceQA_zh 数据集。
 
