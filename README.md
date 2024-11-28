@@ -49,10 +49,10 @@ InsQABench 由华中科技大学 VLR Lab（视觉与深度学习研究组）开�
 ## Demo
 以下展示了模型在 InsQABench 不同任务数据集上微调后的问答的结果：
 <!-- Demo GIF -->
-- 保险常识问答
+### 保险常识问答
 ![Demo GIF](./commonsense.gif)
 
-- 保险合同问答
+### 保险合同问答
 ![Demo GIF](./clause.gif)
 
 
@@ -116,7 +116,7 @@ InsQABench 由华中科技大学 VLR Lab（视觉与深度学习研究组）开�
 <!-- 论文里的 Benchmark 图表 -->
 ### 保险常识问答
   我们使用了全部测试集进行了客观评测，并从中随机挑选了100条数据进行进一步的主观评测。
-- 客观评测
+#### 客观评测
   <table border="1">
   <tr>
     <th>Model</th>
@@ -162,7 +162,7 @@ InsQABench 由华中科技大学 VLR Lab（视觉与深度学习研究组）开�
   </tr>
 </table>
 
-- 主观评测
+#### 主观评测
 <table border="1">
   <tr>
     <th>Model</th>
@@ -287,7 +287,7 @@ InsQABench 由华中科技大学 VLR Lab（视觉与深度学习研究组）开�
   
 ### 保险合同问答
   我们使用了全部测试集进行了客观评测，并人工筛选了20篇来自不同公司的保险PDF合同。每份合同中，我们人工选择了5个问题，涵盖不同的问题类型和话题分布。我们使用人工选择的100个问题进行进一步的主观评测。
-- 客观评测
+#### 客观评测
   <table border="1">
   <tr>
     <th>Model</th>
@@ -333,7 +333,7 @@ InsQABench 由华中科技大学 VLR Lab（视觉与深度学习研究组）开�
   </tr>
 </table>
 
-- 主观评测
+#### 主观评测
   <table border="1">
   <tr>
     <th>Model</th>
