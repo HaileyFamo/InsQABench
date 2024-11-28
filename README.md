@@ -1,6 +1,6 @@
 <div align="center">
 
-[中文](README.md) | EN
+[中文](https://github.com/HaileyFamo/InsQABench/tree/main) | EN
 
 <h1>InsQABench</h1>
   
