@@ -52,6 +52,8 @@ InsQABench 由华中科技大学 VLR Lab（视觉与深度学习研究组）开�
 ### 保险常识问答
 ![Demo GIF](./commonsense.gif)
 
+### 保险数据库问答
+![Demo GIF](./databaseQA.gif)
 ### 保险合同问答
 ![Demo GIF](./clause.gif)
 
