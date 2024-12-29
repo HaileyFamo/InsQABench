@@ -4,7 +4,7 @@ import json
 import os
 import random
 import time
-from prompt import pmt1, pmt2, pmt3
+from InsQABench.src.ins_clause_qa.train_prompt import pmt1, pmt2, pmt3
 from utils import *
 from config import *
 

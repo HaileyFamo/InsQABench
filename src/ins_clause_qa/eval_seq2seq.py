@@ -6,7 +6,7 @@ import json
 import pdb
 import difflib
 import re
-import prompt as prompt
+import InsQABench.src.ins_clause_qa.train_prompt as train_prompt
 from openai import OpenAI
 # import google.generativeai as genai
 
@@ -95,7 +95,7 @@ def load_and_ask_new(eval_path, output_path):
 
             for model, answer in new_answers.items():
                 text += f'{model}:{answer}\n'
-            prompt_text = prompt.get_eval_pmt(question, answers['p'], answers['answer'], text)
+            prompt_text = train_prompt.get_eval_pmt(question, answers['p'], answers['answer'], text)
 
             while True:
                 try:

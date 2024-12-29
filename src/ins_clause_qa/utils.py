@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import logging
 import pdb
@@ -75,5 +76,4 @@ def split(input_file, output_dir):
 
 
 if __name__ == '__main__':
-    split('/data/linbinbin/InsLLM/LLaMA-Factory/data/final.json', '/data/linbinbin/InsLLM/LLaMA-Factory/data0905')
- 
+    pass

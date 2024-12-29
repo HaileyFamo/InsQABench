@@ -1,7 +1,5 @@
 <div align="center">
 
-[中文](https://github.com/HaileyFamo/InsQABench/tree/main) | EN
-
 <h1>InsQABench</h1>
   
 
@@ -50,12 +48,12 @@ InsQABench 由华中科技大学 VLR Lab（视觉与深度学习研究组）开�
 以下展示了模型在 InsQABench 不同任务数据集上微调后的问答的结果：
 <!-- Demo GIF -->
 ### 保险常识问答
-![Demo GIF](./commonsense.gif)
+![Demo GIF](./assets/commonsense.gif)
 
 ### 保险数据库问答
-![Demo GIF](./databaseQA.gif)
+![Demo GIF](./assets/databaseQA.gif)
 ### 保险合同问答
-![Demo GIF](./clause.gif)
+![Demo GIF](./assets/clause.gif)
 
 
 ## InsQABench
