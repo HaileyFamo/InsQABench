@@ -1,4 +1,4 @@
-# Clause QA
+# Database QA
 
 此处汇集了Database QA任务的数据生成，模型评估和demo运行代码。
 数据库操作代码：[./database.py](./database.py)
