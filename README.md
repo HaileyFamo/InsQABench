@@ -3,20 +3,16 @@
 <h1>InsQABench</h1>
   
 
-Paper | 🤗[Huggingface](https://huggingface.co/datasets/FrankRin/Insur-QA)
+[Paper]()
 
 </div>
 
-InsQABench 由华中科技大学 VLR Lab（视觉与深度学习研究组）开发并开源的中文保险数据集。包含中文的**保险常识问答**、**保险数据库问答**、**保险合同问答**三个任务，专为普通用户群体和应用场景设计。我们针对保险领域复杂的专业术语和文档格式进行了信息提取，并基于公开的保险数据和真实世界的保险文档构建了数据集。我们还对流行的开源大模型在我们的数据集上进行了测试。
-
-我们将在本项目中开源如下资源：
-* [InsQABench 数据集](https://huggingface.co/datasets/FrankRin/Insur-QA)
-* [中文保险条款数据集](#insur-qa-数据集)
+InsQABench 由华中科技大学 VLR Lab（视觉与深度学习研究组）开发并开源的中文保险数据集。包含中文的**保险常识问答**、**保险数据库问答**、**保险合同问答**三个任务，专为普通用户群体和应用场景设计。我们针对保险领域复杂的专业术语和文档格式进行了信息提取，并基于公开的保险数据和真实世界的保险文档构建了数据集。我们还对流行的开源大模型在我们的数据集上进行了测试。我们将在本项目中开源 InsQABench 数据集。
 
 
 ## 新闻
 
-**[2024/10/07]** InsQABench v1.0 已正式发布，开源 [InsQABench 数据集](https://huggingface.co/datasets/FrankRin/Insur-QA) 和[中文保险条款数据集](#insur-qa-数据集)。
+**[2024/10/07]** InsQABench v1.0 已正式发布。
 
 ## 目录
 - [任务描述](#任务描述)
